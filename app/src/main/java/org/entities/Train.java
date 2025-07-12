@@ -7,7 +7,7 @@ public class Train {
     private List<String> coaches;
     private List<Integer> seats;
 
-    Train(String trainNumber, List<String> coaches, List<Integer> seats) {
+    public Train(String trainNumber, List<String> coaches, List<Integer> seats) {
         this.trainNumber = trainNumber;
         this.coaches = coaches;
         this.seats = seats;
