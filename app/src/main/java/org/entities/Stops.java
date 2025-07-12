@@ -7,7 +7,7 @@ public class Stops {
     private String haltTime;
     private int platformNumber;
 
-    Stops(String stationName, String arrivalTime, String departureTime, String haltTime, int platformNumber) {
+    public Stops(String stationName, String arrivalTime, String departureTime, String haltTime, int platformNumber) {
         this.stationName = stationName;
         this.arrivalTime = arrivalTime;
         this.departureTime = departureTime;

@@ -21,9 +21,6 @@ dependencies {
 
     // This dependency is used by the application.
     implementation libs.guava
-    
-    // Add the JBCrypt library for password hashing.
-    implementation 'org.mindrot:jbcrypt:0.4'
 }
 
 // Apply a specific Java toolchain to ease working on different environments.
